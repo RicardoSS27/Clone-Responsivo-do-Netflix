@@ -1,0 +1,23 @@
+{
+  "name": "clone-responsivo-do-netflix",
+  "version": "1.0.0",
+  "description": "Site responsivo Netflix",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RicardoSS27/Clone-Responsivo-do-Netflix.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RicardoSS27/Clone-Responsivo-do-Netflix/issues"
+  },
+  "homepage": "https://github.com/RicardoSS27/Clone-Responsivo-do-Netflix#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
