@@ -91,9 +91,10 @@ body {
     width: 100%;
     height: 200px;
     align-items: center;
-    /* overflow-x: auto;
-    overflow-y: hidden; */
+    overflow-x: auto;
+    overflow-y: hidden;
     scroll-behavior: smooth;
+    display: flex;
 }
 
 .movie-category::-webkit-scrollbar{
@@ -108,7 +109,6 @@ body {
     margin-right: 10px;
     cursor: pointer;
     position: relative;
-    border: 1px solid red;
 }
 
 .movie-title {
@@ -129,7 +129,7 @@ body {
 
 .pre-btn,
 .next-btn {
-    position: relative;
+    position: absolute;
     height: 200px;
     top: 50%;
     transform: translateY(-50%);
@@ -137,4 +137,26 @@ body {
     background: #181818;
     border: none;
     outline: none;
+    opacity: 0.5;
+}
+.pre-btn:hover,
+.next-btn:hover {
+    opacity: 1;
+}
+
+.pre-btn {
+    left: -2.5vw;
+    cursor: pointer;
+}
+
+.next-btn {
+    right: 2.5vw;
+    cursor: pointer;
+}
+
+.pre-btn img,
+.next-btn img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
 }
